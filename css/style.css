@@ -1,0 +1,17 @@
+.tab-pane{
+  padding: 1rem;
+}
+.tab-pane svg{
+  margin: 20px;
+}
+path {
+    stroke: black;
+    stroke-width: 0.5;
+    stroke-linejoin: round;
+    transition: fill 0.3s ease, stroke 0.3s ease, transform 0.3s ease, filter 0.3s ease;
+  }
+path:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.3));
+}
